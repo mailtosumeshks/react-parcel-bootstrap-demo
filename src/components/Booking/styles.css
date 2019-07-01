@@ -1,0 +1,68 @@
+.selectDoctorContainer {
+    height: 335px;
+    width: 785px;
+    margin: -7px;
+    display: flex;
+}
+
+.previous {
+    height: 335px;
+    width: 60px;
+    line-height: 335px;
+    font-size: large;
+    text-align: center;
+    transform: scaleY(2);
+    cursor: pointer;
+}
+
+.doctorWrapper {
+    width: 262px;
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.selectBox {
+    width: 165px;
+    margin-bottom: 30px;
+}
+
+.descBox {
+    background-color: rgba(255,255,255,0.9);
+    top: 0;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -5px;
+}
+
+.descBox > .name {
+    font-size: 14px;
+    font-weight: bold;
+    transform: scaleY(1.1);
+    color: rgb(51,51,51);
+}
+
+.descBox > .spec {
+    font-size: 13px;
+    transform: scaleY(1.1);
+    letter-spacing: 0.02em;
+}
+
+.selectDoctor {
+    background-color: rgb(51,51,51);
+    height: 38px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 0.025em;
+}
+
+.selectDoctor:hover {
+    background-color: rgb(207, 164, 63);
+    cursor: pointer;
+}

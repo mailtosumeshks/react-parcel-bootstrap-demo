@@ -1,0 +1,6 @@
+# Site settings
+title: React App
+email: mailtosumeshks@gmail.com
+baseurl: "/dist" # the subpath of your site, e.g. /blog
+github_username: mailtosumeshks
+github_repository: mailtosumeshks/react-parcel-bootstrap-demo
